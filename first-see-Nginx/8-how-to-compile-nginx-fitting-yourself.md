@@ -58,3 +58,28 @@ tar -xzf nginx nginx-1.14.1.tar.gz
             - #### 解决：`yum install -y zlib-devel`,再configure,OK！
 
             ![configure-prefix-OK](./img/8/configure-prefix-OK.png)
+
+            > configure生成的中间文件在`nginx-1.14.1/objs`中
+
+            ![configure-complete-objs](./img/8/configure-complete-objs.jpg)
+
+                - objs中ngx_modules.c：有哪些模块会编译进nginx
+            
+            - #### make 编译：nginx-1.14.1/下运行`make`
+            > make产生的文件（中间文件、二进制文件、可执行文件，目标文件nginx。。）在objs中
+
+            > 了解上述知识点的原因：nginx版本升级，不能直接执行make install,而要执行make然后将产生的目标文件nginx拷贝到安装目录中
+
+            > c语言生成的所有中间文件都会放在objs/src/目录中
+
+            > 若使用了动态模块，同样也会生成.so文件在objs目录中
+
+            - 执行`make install`**首次**安装时可以使用这个命令
+
+            ![make-install](./img/8/make-install.png)
+
+            > 安装完成后，进入nginx目录：`cd /home/nginx-test/nginx`
+
+            ![nginx-installed-files](./img/8/nginx-installed-files.png)
+
+                - 其中，sbin/（nginx二进制文件）、conf/（决定nginx配置功能的文件）、logs/（access log和error.log）
