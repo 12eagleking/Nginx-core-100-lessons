@@ -13,3 +13,5 @@
 - 9.[Nginx配置文件的通用语法介绍](./first-see-Nginx/9-Nginx-configure.md/#Nginx配置语法)
 - 10.[Nginx命令行及演示：重载、热部署、日志切割](./first-see-Nginx/10-Nginx-cmd.md/#Nginx命令行及演示：重载、热部署、日志切割)
 - 11.[用Nginx搭建一个可用的静态资源Web服务器](./first-see-Nginx/11.md/#用Nginx搭建一个可用的静态资源Web服务器)
+- 12.[用Nginx搭建一个具备缓存功能的反向代理服务](./first-see-Nginx/12.md/#用Nginx搭建一个具备缓存功能的反向代理服务)
+- 13.[用GoAccess实现可视化并实时监控access日志](./first-see-Nginx/13.md/#用GoAccess实现可视化并实时监控access日志)
