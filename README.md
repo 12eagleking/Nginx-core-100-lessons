@@ -15,3 +15,7 @@
 - 11.[用Nginx搭建一个可用的静态资源Web服务器](./first-see-Nginx/11.md/#用Nginx搭建一个可用的静态资源Web服务器)
 - 12.[用Nginx搭建一个具备缓存功能的反向代理服务](./first-see-Nginx/12.md/#用Nginx搭建一个具备缓存功能的反向代理服务)
 - 13.[用GoAccess实现可视化并实时监控access日志](./first-see-Nginx/13.md/#用GoAccess实现可视化并实时监控access日志)
+- 14.[从网络原理来看SSL安全协议](./first-see-Nginx/14.md/#从网络原理来看SSL安全协议)
+
+- 18.[用免费的SSL证书实现一个HTTPS站点](./first-see-Nginx/18.md/#用免费的SSL证书实现一个HTTPS站点)
+- 19.[OpenResty安装实践](./first-see-Nginx/19.md/#OpenResty安装实践)
